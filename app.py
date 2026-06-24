@@ -6,6 +6,7 @@ from data_geo import load_data, get_states_for_year
 dash._dash_renderer._set_react_version("18.2.0")
 
 app = dash.Dash(__name__, use_pages=True, suppress_callback_exceptions=True)
+server = app.server
 
 df = load_data()
 YEARS = sorted(df["Year"].unique().tolist())
@@ -337,4 +338,4 @@ def update_active_links(pathname):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8050)
+    app.run(debug=False)

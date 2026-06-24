@@ -17,11 +17,6 @@ METRICS = [
     {"value": "Hypertension_Rate", "label": "Hypertension"},
     {"value": "Depression_Rate", "label": "Depression"},
     {"value": "Freq_Distress_Rate", "label": "Freq Mental Distress"},
-    # {"group": "Comorbidities",
-    #  "items": [
-    #      {"value": "BP_Depress_Rate", "label": "Hypertension & Depression"},
-    #      {"value": "BP_Distress_Rate", "label": "Hypertension & Mental Distress"}
-    #  ]}
 ]
 
 layout = dmc.Stack([
@@ -95,7 +90,9 @@ layout = dmc.Stack([
                         withBorder=True,
                     ),
                     dmc.Space(h=25),
-                    dmc.Divider(size='md', label=dmc.Text("Over the Years", size="lg", fw=600)),
+                    dmc.Divider(
+                        label=dmc.Text("Over the Years", size="lg", fw=600),
+                        size='md'),
                     dmc.Space(h=15),
                     
                     # ------------------------- LINE CHART -------------------------
