@@ -2,6 +2,7 @@ import dash
 import dash_mantine_components as dmc
 from dash import dcc, page_container, callback, Output, Input, State
 from data_geo import load_data, get_states_for_year
+import os
 
 dash._dash_renderer._set_react_version("18.2.0")
 
@@ -336,6 +337,6 @@ def update_active_links(pathname):
         #pathname == "/socioeconomic",
     )
 
-
 if __name__ == "__main__":
-    app.run(debug=False)
+    port = int(os.environ.get("PORT", 8050))
+    app.run(host="0.0.0.0", port=port, debug=False)
