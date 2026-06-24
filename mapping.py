@@ -1,0 +1,61 @@
+STATE_REGION_MAP = {
+    # Northeast
+    "Maine": "Northeast",
+    "New Hampshire": "Northeast",
+    "Vermont": "Northeast",
+    "Massachusetts": "Northeast",
+    "Rhode Island": "Northeast",
+    "Connecticut": "Northeast",
+    "New York": "Northeast",
+    "New Jersey": "Northeast",
+    "Pennsylvania": "Northeast",
+
+    # Midwest
+    "Ohio": "Midwest",
+    "Michigan": "Midwest",
+    "Indiana": "Midwest",
+    "Illinois": "Midwest",
+    "Wisconsin": "Midwest",
+    "Minnesota": "Midwest",
+    "Iowa": "Midwest",
+    "Missouri": "Midwest",
+    "North Dakota": "Midwest",
+    "South Dakota": "Midwest",
+    "Nebraska": "Midwest",
+    "Kansas": "Midwest",
+
+    # South (split into Southeast + Southwest)
+    "Delaware": "Southeast",
+    "Maryland": "Southeast",
+    "Virginia": "Southeast",
+    "West Virginia": "Southeast",
+    "North Carolina": "Southeast",
+    "South Carolina": "Southeast",
+    "Georgia": "Southeast",
+    "Florida": "Southeast",
+    "Kentucky": "Southeast",
+    "Tennessee": "Southeast",
+    "Alabama": "Southeast",
+    "Mississippi": "Southeast",
+    "Arkansas": "Southeast",
+    "Louisiana": "Southeast",
+
+    # Southwest
+    "Texas": "Southwest",
+    "Oklahoma": "Southwest",
+    "New Mexico": "Southwest",
+    "Arizona": "Southwest",
+
+    # West
+    "California": "West",
+    "Nevada": "West",
+    "Oregon": "West",
+    "Washington": "West",
+    "Idaho": "West",
+    "Montana": "West",
+    "Wyoming": "West",
+    "Colorado": "West",
+    "Utah": "West",
+    "Alaska": "West",
+    "Hawaii": "West",
+}
