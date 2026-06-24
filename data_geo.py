@@ -1,7 +1,7 @@
 import pandas as pd
 from mapping import STATE_REGION_MAP
 
-def load_data(path="assets/data/BRFSS_V2.parquet"):
+def load_data(path="assets/data/BRFSS.parquet"):
     cols = [
         "Year", "State_Name", "LLCPWT",
         "High_BP", "Depression", "Mental_Hlth",

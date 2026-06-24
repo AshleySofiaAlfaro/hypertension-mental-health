@@ -1,6 +1,6 @@
 import pandas as pd
 
-def load_data(path="assets/data/BRFSS_V2.parquet"):
+def load_data(path="assets/data/BRFSS.parquet"):
     cols = [
         "Year", "State_Name", "LLCPWT",
         "High_BP", "Depression", "Mental_Hlth",
