@@ -64,7 +64,9 @@ layout = dmc.Stack([
                         withBorder=True,
                     ),
                     dmc.Space(h=25),
-                    dmc.Divider(size='md', label=dmc.Text("Over the Years")),
+                    dmc.Divider(
+                        label=dmc.Text("Over the Years", size="lg", fw=600),
+                        size='md'),
                     dmc.Space(h=15),
                     
                     # ------------------------- LINE CHART -------------------------
@@ -130,9 +132,11 @@ layout = dmc.Stack([
                         withBorder=True,                     
                     ),
 
-                    dmc.Space(h=10),
-                    dmc.Divider(size='md', label=dmc.Text("Testing")),
-                    dmc.Space(h=10),
+                    dmc.Space(h=25),
+                    dmc.Divider(
+                        label=dmc.Text("Over the Years", size="lg", fw=600),
+                        size='md'),
+                    dmc.Space(h=15),
 
                     # ------------------------- LINE CHART -------------------------
                     dmc.Paper(
