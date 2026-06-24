@@ -7,7 +7,18 @@ def load_data(path="assets/data/BRFSS.parquet"):
         "Race", "Age", "Sex", "Income",
         "Employ", "Health_Insurance", "Med_Cost"
     ]
-    return pd.read_parquet(path, columns=cols)
+    df = pd.read_parquet(path, columns=cols)
+
+    df["Year"] = df["Year"].astype("int16")
+    df["Mental_Hlth"] = df["Mental_Hlth"].astype("int8")
+    df["LLCPWT"] = df["LLCPWT"].astype("float32")
+
+    for col in ["State_Name", "High_BP", "Depression", "Race", "Age", "Sex",
+                "Income", "Employ", "Health_Insurance", "Med_Cost"]:
+        if col in df.columns:
+            df[col] = df[col].astype("category")
+    
+    return df
 
 # ── shared helpers ────────────────────────────────────────────────────────────
 
