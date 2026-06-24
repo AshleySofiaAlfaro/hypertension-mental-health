@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.mantine-Title-root {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.mantine-NavLink-root[data-active="true"] {
+    background-color: #d8cdc9ff !important;
+    color: black !important;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .mantine-Modal-content {
+        width: 100vw !important;
+        height: 100vh !important;
+        max-height: 100vh !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .mantine-Modal-inner {
+        padding: 0 !important;
+    }
+}
