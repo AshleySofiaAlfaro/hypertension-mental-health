@@ -216,7 +216,7 @@ def update_demo_cards(filters):
         return dmc.Paper([
             dmc.Text(label, size="xs", c="dimmed", mb=4),
             dmc.Text(group if group else "—", size="lg", fw=700, c=color),
-            dmc.Text(f"{rate}%" if rate is not None else "—", size="sm", c="dimmed")
+            dmc.Text(f"{rate:.1f}%" if rate is not None else "—", size="sm", c="dimmed")
         ], p="md", radius="md", shadow="xs", style={"textAlign": "center"})
 
     return [

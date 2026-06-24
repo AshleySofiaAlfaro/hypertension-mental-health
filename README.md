@@ -8,6 +8,8 @@ app_file: app.py
 pinned: false
 ---
 
+<!-- Hugging Face Space configuration above — required for deployment -->
+
 # Hypertension and Mental Health in U.S. Adults
 
 An interactive public health dashboard exploring how mental health outcomes differ between adults with and without hypertension across the United States.
