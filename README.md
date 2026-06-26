@@ -16,8 +16,9 @@ An interactive public health dashboard exploring how mental health outcomes diff
 
 ## Live Dashboard
 
-🔗 [View on Hugging Face Spaces](https://huggingface.co/spaces/ashleysofiaalfaro/hypertension-mental-health)
-<sup>Note: If there has been a period of inactivity, there is a possibility the space is "sleeping," which can cause a loading delay when it restarts.</sup>
+> 🔗 [View on Hugging Face Spaces](https://huggingface.co/spaces/ashleysofiaalfaro/hypertension-mental-health){:target="_blank"}
+
+*Note: If there has been a period of inactivity, there is a possibility the space is "sleeping," which causes a loading delay.*
 
 ---
 
@@ -40,11 +41,33 @@ Despite growing interest in this relationship, there remains a gap in accessible
 
 ## Data
 
-**Source:** [CDC Behavioral Risk Factor Surveillance System (BRFSS)](https://www.cdc.gov/brfss/)
- 
-**Survey Years:** 2015, 2017, 2019, 2021, 2023
- 
-**Sample Size:** ~400,000 respondents per year (~2 million rows total)
+This dashboard uses data from the **CDC Behavioral Risk Factor Surveillance System
+(BRFSS)**, the nation's premier system of health-related telephone surveys collecting
+state-level data about U.S. residents' health behaviors, chronic conditions, and use of
+preventive services.
+
+- **Survey years used:** 2015, 2017, 2019, 2021, 2023
+- **Approximate sample size:** ~400,000 respondents per year across all 50 states,
+  the District of Columbia, and U.S. territories
+- **Survey weights:** All prevalence estimates are weighted using BRFSS survey weights
+  (`LLCPWT`) to produce population-representative estimates at the national and
+  state level
+
+### Key Variables
+
+| Variable | Description |
+|---|---|
+| `High_BP` | Ever told by a health professional they have high blood pressure |
+| `Depression` | Ever told by a health professional they have a depressive disorder |
+| `Mental_Hlth` | Number of days in the past 30 days mental health was not good |
+| `Race` | Race/ethnicity of respondent |
+| `Age` | Age group of respondent |
+| `Sex` | Sex of respondent |
+
+### Data Access
+
+BRFSS data is publicly available through the CDC:
+[https://www.cdc.gov/brfss/](https://www.cdc.gov/brfss/)
 
 ---
 
