@@ -14,6 +14,13 @@ pinned: false
 
 An interactive public health dashboard exploring how mental health outcomes differ between adults with and without hypertension across the United States.
 
+## Live Dashboard
+
+🔗 [View on Hugging Face Spaces](https://huggingface.co/spaces/ashleysofiaalfaro/hypertension-mental-health)
+<sup>Note: If there has been a period of inactivity, there is a possibility the space is "sleeping," which can cause a loading delay when it restarts.</sup>
+
+---
+
 ## Background
 
 Hypertension, or high blood pressure, is one of the most prevalent chronic condition in the United States. According to the CDC, nearly 48% of U.S. adults had hypertension between 2021 and 2023. Beyond increasing the risk of other cardiovascular diseases, hypertension carries psychosocial consequences that are less frequently examined at the population level. Research suggests that adults with hypertension experience elevated rates of depression and poor mental health compared to those without the condition. For example, a CDC-affiliated study found that depressive symptoms were significantly associated with hypertension prevalence and treatment among U.S. adults, suggesting that mental health status may influence how individuals manage their blood pressure (Fang et al., 2022).
@@ -41,6 +48,13 @@ Despite growing interest in this relationship, there remains a gap in accessible
 
 ---
 
+## Findings
+1. Adults with hypertension reported higher rates of depression and frequent mental distress compared to adults without hypertension.
+2. Younger adults (18-24, 25-29) with hypertension consistently had the highest rates for poor mental health. A similiar age pattern appeared for adults without hypertension, however, the prevalence rates were lower in comparison. 
+3. Multiracial and American Indian/Alaska Native adults reported the highest rates for depression and frequent mental distress regardless of hypertension status. This suggests that there are factors beyond hypertension that is contributing to the mental health disparities.
+
+---
+
 ## Future Directions
 
 ---
@@ -48,6 +62,19 @@ Despite growing interest in this relationship, there remains a gap in accessible
 ## Acknowledgements
 
 This project was developed as part of the **SCIPE CI-SIP (Cyberinfrastructure Summer Internship Program)** in collaboration with the **Hawaiʻi Data Science Institute (HiDSI)**.
+
+**Mentors:**
+- Andrew Zilnicki
+- Haohan Yuan
+
+**CI-SIP 2026**
+- Dr. Alex Stokes
+- SCIPE Program
+- Hawaii Data Science Institute
+
+**Project Support**
+- Dr. Sean Cleveland 
+- NSF Award #2417946
 
 ---
 
