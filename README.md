@@ -16,9 +16,16 @@ An interactive public health dashboard exploring how mental health outcomes diff
 
 ## Live Dashboard
 
-> 🔗 [View on Hugging Face Spaces](https://huggingface.co/spaces/ashleysofiaalfaro/hypertension-mental-health){:target="_blank"}
+> 🔗 [View on Hugging Face Spaces](https://huggingface.co/spaces/ashleysofiaalfaro/hypertension-mental-health)
 
 *Note: If there has been a period of inactivity, there is a possibility the space is "sleeping," which causes a loading delay.*
+
+## Built With
+
+[![Visual-Studio][vs-code-shield]]
+[![Jupyter-Notebook][jupyter-shield]]
+[![Python][python-shield]]
+[![Plotly-Dash][plotly-dash-shield]]
 
 ---
 
@@ -80,6 +87,11 @@ BRFSS data is publicly available through the CDC:
 
 ## Future Directions
 
+- Include socioeconomic factors and see what patterns emerge between adults with and without hypertension.
+- Explore how mental health and hypertension affect other cardiovascular outcomes.
+- Investigate resource availability, such as hospitals and mental health centers.
+- Use statisical modeling (e.g., logistic regression) to better understand how strongly hypertension is associated with poor mental health.
+
 ---
 
 ## Acknowledgements
@@ -110,3 +122,10 @@ This project was developed as part of the **SCIPE CI-SIP (Cyberinfrastructure Su
   prevalence, awareness, treatment and control among US adults. *Journal of
   Hypertension, 40*(9), 1658–1665.
   https://pmc.ncbi.nlm.nih.gov/articles/PMC11139467/
+
+
+  <!-- TECH BADGES -->
+[vs-code-shield]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
+[python-shield]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[plotly-dash-shield]: https://img.shields.io/badge/plotly-3F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white
+[jupyter-shield]: https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white
