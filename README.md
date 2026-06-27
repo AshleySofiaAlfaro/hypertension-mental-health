@@ -22,10 +22,11 @@ An interactive public health dashboard exploring how mental health outcomes diff
 
 ## Built With
 
-[![Visual-Studio][vs-code-shield]]
-[![Jupyter-Notebook][jupyter-shield]]
-[![Python][python-shield]]
-[![Plotly-Dash][plotly-dash-shield]]
+[![Visual-Studio][vs-code-shield]][vs-code-url]
+[![Jupyter-Notebook][jupyter-shield]][jupyter-url]
+[![Python][python-shield]][python-url]
+[![Plotly-Dash][plotly-dash-shield]][plotly-dash-url]
+[![CSS][css-shield]][css-url]
 
 ---
 
@@ -126,6 +127,12 @@ This project was developed as part of the **SCIPE CI-SIP (Cyberinfrastructure Su
 
   <!-- TECH BADGES -->
 [vs-code-shield]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
+[vs-code-url]: https://code.visualstudio.com/
 [python-shield]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[python-url]: https://www.python.org/
 [plotly-dash-shield]: https://img.shields.io/badge/plotly-3F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white
+[plotly-dash-url]: https://dash.plotly.com/
+[css-shield]: https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white
+[css-url]: https://www.w3.org/Style/CSS/Overview.en.html
 [jupyter-shield]: https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white
+[jupyter-url]: https://jupyter.org/
